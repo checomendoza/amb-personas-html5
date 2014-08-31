@@ -1,0 +1,60 @@
+#selectPais {
+	color: #OOO !important;
+	/*font-size: 20px; */
+}
+input:invalid {
+	border: 1px solid red;
+}
+.error-nombre
+{
+	display: none;
+	color: #EC0F0F;
+	font-style: oblique;
+}
+.error-apellido
+{
+	display: none;
+	color: #EC0F0F;
+	font-style: oblique;
+}
+.error-dni
+{
+	display: none;
+	color: #EC0F0F;
+	font-style: oblique;
+}
+.error-mail
+{
+	display: none;
+	color: #EC0F0F;
+	font-style: oblique;
+}
+.error-mail-2
+{
+	display: none;
+	color: #EC0F0F;
+	font-style: oblique;
+}
+.error-nacimiento
+{
+	display: none;
+	color: #EC0F0F;
+	font-style: oblique;
+}
+#msj-alerta
+{
+	background-color: #B6FAB1;
+	display: none;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #129206;
+}
+.header {
+	background-color: #b8b8b8;
+	height: 70px;
+	text-align: center;
+	font-size: 20px;
+}

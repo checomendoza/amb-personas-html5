@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <provincias>
+        <!-- Tabla provincias -->
+        <provincia>
+            <id>1</id>
+            <nombre name="nombre">Buenos Aires</nombre>
+        </provincia>
+        <provincia>
+            <id>2</id>
+            <nombre name="nombre">Buenos Aires-GBA</nombre>
+        </provincia>
+        <provincia>
+            <id>3</id>
+            <nombre name="nombre">Capital Federal</nombre>
+        </provincia>
+        <provincia>
+            <id>4</id>
+            <nombre name="nombre">Catamarca</nombre>
+        </provincia>
+        <provincia>
+            <id>5</id>
+            <nombre name="nombre">Chaco</nombre>
+        </provincia>
+        <provincia>
+            <id>6</id>
+            <nombre name="nombre">Chubut</nombre>
+        </provincia>
+        <provincia>
+            <id>7</id>
+            <nombre name="nombre">Córdoba</nombre>
+        </provincia>
+        <provincia>
+            <id>8</id>
+            <nombre name="nombre">Corrientes</nombre>
+        </provincia>
+        <provincia>
+            <id>9</id>
+            <nombre>Entre Ríos</nombre>
+        </provincia>
+        <provincia>
+            <id>10</id>
+            <nombre>Formosa</nombre>
+        </provincia>
+        <provincia>
+            <id>11</id>
+            <nombre>Jujuy</nombre>
+        </provincia>
+        <provincia>
+            <id>12</id>
+            <nombre>La Pampa</nombre>
+        </provincia>
+        <provincia>
+            <id>13</id>
+            <nombre>La Rioja</nombre>
+        </provincia>
+        <provincia>
+            <id>14</id>
+            <nombre>Mendoza</nombre>
+        </provincia>
+        <provincia>
+            <id>15</id>
+            <nombre>Misiones</nombre>
+        </provincia>
+        <provincia>
+            <id>16</id>
+            <nombre>Neuquén</nombre>
+        </provincia>
+        <provincia>
+            <id>17</id>
+            <nombre>Río Negro</nombre>
+        </provincia>
+        <provincia>
+            <id>18</id>
+            <nombre>Salta</nombre>
+        </provincia>
+        <provincia>
+            <id>19</id>
+            <nombre>San Juan</nombre>
+        </provincia>
+        <provincia>
+            <id>20</id>
+            <nombre>San Luis</nombre>
+        </provincia>
+        <provincia>
+            <id>21</id>
+            <nombre>Santa Cruz</nombre>
+        </provincia>
+        <provincia>
+            <id>22</id>
+            <nombre>Santa Fe</nombre>
+        </provincia>
+        <provincia>
+            <id>23</id>
+            <nombre>Santiago del Estero</nombre>
+        </provincia>
+        <provincia>
+            <id>24</id>
+            <nombre>Tierra del Fuego</nombre>
+        </provincia>
+        <provincia>
+            <id>25</id>
+            <nombre>Tucumán</nombre>
+        </provincia>
+    </provincias>

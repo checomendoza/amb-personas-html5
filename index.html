@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta author="Ezequiel Mendoza - @checomendoza">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.3.min.css">
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.3.min.js"></script>
+	
+			
+</head>
+<body>
+<div>
+	<header class="header">ALTA DE PERSONAS</header>
+	<div id="msj-alerta">Datos guardados correctamente</div>
+<div id="alta" data-role="main" class="ui-content">
+	<form id="formulario" method="post" action="#" autocomplete="on">
+        <label for="inputNombre">Nombre</label>
+        <input type="text" name="inputNombre" id="inputNombre" class="required input" placeholder="Nombre" required onchange="javascript:cerrarMsj('error-nombre')"/>
+		<p class="error-nombre">Este campo es obligatorio</p>
+    	</br>
+
+        <label for="nombre">Apellido</label>
+        <input type="text" name="inputApellido" id="inputApellido" class="required input" placeholder="Apellido" required onchange="javascript:cerrarMsj('error-apellido')"/>
+		<p class="error-apellido">Este campo es obligatorio</p>
+    	</br>
+        <label for="correo">Email</label>
+        <input type="email" name="inputMail" id="inputMail" class="required email" placeholder="nombre@ejemplo.com" required onchange="javascript:cerrarMsj('error-mail')"/>
+		<p class="error-mail">Este campo es obligatorio</p>
+		<p class="error-mail-2">No es un correo válido</p>
+    	</br>
+        <label>Fecha de Nacimiento</label><input data-role="date" id="inputNacimiento" name="inputNacimiento" type="date" placeholder="01/01/1980"/>
+		
+    	</br>
+        
+    	<label>Número de DNI </label>
+		    <input name="inputDNI" type="number" min="1111111" max="99999999" pattern="[0-9]{7,8}" id="inputDNI" minlength="7" maxlength="8" placeholder="12345678" required onchange="javascript:cerrarMsj('error-dni')"/>
+		    <p class="error-dni">Este campo es obligatorio</p>
+		    
+		</br>
+		  
+		
+		<div>
+	    	<label>Pais</label>
+	    	<select id="selectPais" name="selectPais">
+	    		<option value="0">Seleccione...</option>
+	    	</select>
+	    </div>
+	    
+	    <div>
+		    <label>Provincia<label>
+		    <select id="selectProvincia" name="selectProvincia">
+		    	<option value="0">Seleccione...</option>
+		    </select>
+	    </div>
+	    
+	    <div>
+		    <label>Ciudad</label>
+		    <select id="selectCiudad" name="selectCiudad">
+		    	<option value="0">Seleccione...</option>
+		    </select>
+		</div>
+			
+	        <input data-inline="true"type="button" value="Aceptar" data-icon="check" onclick="javascript:altaPersona()"/>
+	        <input data-inline="true" type="button" value="Vaciar formulario" data-icon="back" onclick="javascript:resetear()"/>
+
+	        
+	</form>
+</div>
+		
+
+
+
+
+</div>	
+</div>
+<script type="text/javascript" src="js/jscript.js"></script>
+	
+<div>@checomendoza</div>
+</body>
+</html>
